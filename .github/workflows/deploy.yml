@@ -4,8 +4,8 @@ on:
     branches: [ "main" ]
 
 env:
-  AZURE_CONTAINER_REGISTRY: "acrinventoryapp"
-  CONTAINER_APP_NAME: "ca-inventory-api"
+  AZURE_CONTAINER_REGISTRY: "acrcloudnativedev"
+  CONTAINER_APP_NAME: "ca-cloudnative-api"
   RESOURCE_GROUP: "rg-cloudnative-dev"
 
 jobs:
