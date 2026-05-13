@@ -16,7 +16,7 @@ public class StatusController : ControllerBase
     [HttpGet("health")]
     public IActionResult GetHealth()
     {
-        return Ok(new { Status = "Healthy", Timestamp = DateTime.UtcNow });
+        return Ok(new { Status = "Healthy!", Timestamp = DateTime.UtcNow });
     }
 
     [HttpGet("secret")]
@@ -26,7 +26,7 @@ public class StatusController : ControllerBase
 
         if (string.IsNullOrEmpty(secretValue))
         {
-            return NotFound("Ingen hemlighet hittades.");
+            return NotFound("No secrets found.");
         }
 
         return Ok(new { SecretMessage = secretValue });
