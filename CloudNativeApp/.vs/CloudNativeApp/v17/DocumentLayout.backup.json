@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\.github\\workflows\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\.github\\workflows\\ci.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\controllers\\statuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\cloudnativeapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\cloudnativeapp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|c:\\projects\\dotnet\\chasworkshops\\ws_cloudnativeapp\\cloudnativeapp\\cloudnativeapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06328479-91F1-4713-9F9F-A599E85C71A8}|CloudNativeApp.Api\\CloudNativeApp.Api.csproj|solutionrelative:cloudnativeapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{60a19d42-2dd7-43f3-be90-c7a9cb7d28f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ci.yml",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\.github\\workflows\\ci.yml",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\.github\\workflows\\ci.yml",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\.github\\workflows\\ci.yml",
+              "RelativeToolTip": "CloudNativeApp.Api\\.github\\workflows\\ci.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-11T10:16:21.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Dockerfile",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\Dockerfile",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Dockerfile",
+              "RelativeToolTip": "CloudNativeApp.Api\\Dockerfile",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-06T10:36:26.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CloudNativeApp.Api.csproj",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+              "RelativeToolTip": "CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:27:55.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\.dockerignore",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\.dockerignore",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\.dockerignore",
+              "RelativeToolTip": "CloudNativeApp.Api\\.dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-06T10:18:35.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatusController.cs",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Controllers\\StatusController.cs",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\Controllers\\StatusController.cs",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Controllers\\StatusController.cs",
+              "RelativeToolTip": "CloudNativeApp.Api\\Controllers\\StatusController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:14:28.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\appsettings.json",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\appsettings.json",
+              "RelativeToolTip": "CloudNativeApp.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-06T10:13:49.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CloudNativeApp.Api\\Program.cs",
+              "ToolTip": "C:\\Projects\\DOTNET\\ChasWorkshops\\WS_CloudNativeApp\\CloudNativeApp\\CloudNativeApp.Api\\Program.cs",
+              "RelativeToolTip": "CloudNativeApp.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:13:47.441Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 182,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

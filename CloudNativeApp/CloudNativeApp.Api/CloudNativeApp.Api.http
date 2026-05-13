@@ -1,0 +1,6 @@
+@CloudNativeApp.Api_HostAddress = http://localhost:5111
+
+GET {{CloudNativeApp.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
