@@ -4,7 +4,7 @@ FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 
 WORKDIR /src
 
-COPY ["src/CloudNativeApp.Api/CloudNativeApp.Api.csproj", "./"]
+COPY ["CloudNativeApp.Api\CloudNativeApp.Api.csproj", "./"]
 RUN dotnet restore "./CloudNativeApp.Api.csproj"
 
 COPY src/CloudNativeApp.Api/. .
