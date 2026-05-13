@@ -1,16 +1,16 @@
-# STAGE 1: BUILD (Byggmiljön)
+# STAGE 1: BUILD (Byggmiljï¿½n)
 
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 
 WORKDIR /src
 
-COPY ["CloudNativeApp.Api.csproj", "./"]
+COPY ["src/CloudNativeApp.Api/CloudNativeApp.Api.csproj", "./"]
 RUN dotnet restore "./CloudNativeApp.Api.csproj"
 
-COPY . .
+COPY src/CloudNativeApp.Api/. .
 RUN dotnet publish "CloudNativeApp.Api.csproj" -c Release -o /app/publish
 
-# STAGE 2: RUNTIME (Produktionsmiljön)
+# STAGE 2: RUNTIME (Produktionsmiljï¿½n)
 
 FROM mcr.microsoft.com/dotnet/aspnet:9.0
 
