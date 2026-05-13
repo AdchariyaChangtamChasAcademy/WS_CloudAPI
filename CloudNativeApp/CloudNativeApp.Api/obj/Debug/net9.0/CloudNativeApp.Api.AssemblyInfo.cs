@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CloudNativeApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7a0d6d7fb9c5099f0c9163c1febe5c0e24c0f21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d1c6284d635fb81059aad4ebee317badba6f741")]
 [assembly: System.Reflection.AssemblyProductAttribute("CloudNativeApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CloudNativeApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
