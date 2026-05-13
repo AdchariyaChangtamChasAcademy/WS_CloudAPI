@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i4HUU6zVkgc=",
+  "dgSpecHash": "jCURvdHrEpo=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+  "projectFilePath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.15\\microsoft.aspnetcore.openapi.9.0.15.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",

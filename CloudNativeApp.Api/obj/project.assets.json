@@ -169,11 +169,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+      "projectUniqueName": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
       "projectName": "CloudNativeApp.Api",
-      "projectPath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
+      "projectPath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
       "packagesPath": "C:\\Users\\Adcha\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp\\CloudNativeApp.Api\\obj\\",
+      "outputPath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
