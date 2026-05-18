@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "llusrRMsc68=",
+  "dgSpecHash": "pH6pgWvXHBg=",
   "success": true,
   "projectFilePath": "C:\\Projects\\DOTNET\\Workshop\\WS_CloudApi\\WS_CloudAPI\\CloudNativeApp.Api\\CloudNativeApp.Api.csproj",
   "expectedPackageFiles": [
@@ -31,9 +31,8 @@
     "C:\\Users\\Adcha\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\system.text.encodings.web\\10.0.3\\system.text.encodings.web.10.0.3.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\system.text.json\\10.0.3\\system.text.json.10.0.3.nupkg.sha512",
-    "C:\\Users\\Adcha\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.13\\microsoft.windowsdesktop.app.ref.9.0.13.nupkg.sha512",
+    "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.13\\microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.13\\microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
     "C:\\Users\\Adcha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.13\\microsoft.netcore.app.host.win-x64.9.0.13.nupkg.sha512"
   ],

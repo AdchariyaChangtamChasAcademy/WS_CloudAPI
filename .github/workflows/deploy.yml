@@ -5,7 +5,7 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "acrcloudnativedev"
-  CONTAINER_APP_NAME: "ca-cloudnative-api"
+  CONTAINER_APP_NAME: "ca-cloudnative-dev"
   RESOURCE_GROUP: "rg-cloudnative-dev"
 
 jobs:
