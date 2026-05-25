@@ -17,6 +17,19 @@ resource logAnalytics 'Microsoft.OperationalInsights/workspaces@2022-10-01' = {
   }
 }
 
+// RESURS 7: Application Insights
+
+// Detta är tjänsten som analyserar OpenTelemetry-data (Loggar, Metrics, Traces).
+resource appInsights 'Microsoft.Insights/components@2020-02-02' = {
+  name: 'appi-student-${uniqueString(resourceGroup().id)}'
+  location: location
+  kind: 'web'
+  properties: {
+    Application_Type: 'web'
+    WorkspaceResourceId: logAnalytics.id
+  }
+}
+
 
 // RESURS 2: Azure Container Apps Environment (befintlig)
 // resource containerAppEnv 'Microsoft.App/managedEnvironments@2023-05-01' existing = {
@@ -113,12 +126,18 @@ resource containerApp 'Microsoft.App/containerApps@2023-05-01' = {
     }
     template: {
       containers: [
-        {
-          name: 'inventory-api'
-          // Vi startar med en tillfällig standard-image. Vår GitHub Actions pipeline kommer byta ut denna senare.
-          image: 'mcr.microsoft.com/azuredocs/containerapps-helloworld:latest'
-          resources: {
-            cpu: json('0.25') // Minsta möjliga för att spara student-krediter
+          {
+            name: 'inventory-api'
+            image: 'mcr.microsoft.com/azuredocs/containerapps-helloworld:latest'
+            env: [
+                {
+                    // Här får applikationen veta vart den ska skicka sin övervakningsdata
+                    name: 'APPLICATIONINSIGHTS_CONNECTION_STRING'
+                    value: appInsights.properties.ConnectionString
+                }
+            ]
+            resources: {
+            cpu: json('0.25')
             memory: '0.5Gi'
           }
         }

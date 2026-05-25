@@ -1,10 +1,21 @@
 using Azure.Identity;
+using Azure.Monitor.OpenTelemetry.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddOpenTelemetry().UseAzureMonitor();
 
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("StrictSecurityPolicy", policyBuilder =>
+    {
+        policyBuilder.WithOrigins("https://min-sakra-frontend-app.azurewebsites.net").WithMethods("GET", "POST").AllowAnyHeader();
+    });
+});
 
 // Azure Key Vault
 var keyVaultUrl = builder.Configuration["KeyVaultUrl"];
@@ -24,6 +35,8 @@ if (app.Environment.IsDevelopment())
 app.MapGet("/health", () => Results.Ok(new { status = "Healthy", timestamp = DateTime.UtcNow }));
 
 app.UseHttpsRedirection();
+
+app.UseCors("StrictSecurityPolicy");
 
 app.UseAuthorization();
 
